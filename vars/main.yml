@@ -9,5 +9,4 @@ oracle_java:
   rpm:
     filename: jdk-{{ oracle_java_version }}u{{ oracle_java_version_update }}-linux-x64.rpm
     url: http://download.oracle.com/otn-pub/java/jdk/{{ oracle_java_version }}u{{ oracle_java_version_update }}-b{{ oracle_java_build }}/jdk-{{ oracle_java_version }}u{{ oracle_java_version_update }}-linux-x64.rpm
-      # http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz
   home: /usr/java/jdk1.{{ oracle_java_version }}.0_{{ oracle_java_version_update }}
